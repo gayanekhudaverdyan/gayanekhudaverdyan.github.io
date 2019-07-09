@@ -1,12 +1,11 @@
 
 table.header
 {
-  //position: relative;
   left: 0;
   top: 0;
   width: 100%;
   border-spacing: 0; 
-}
+ }
 
 a.header 
 { 
@@ -14,7 +13,7 @@ a.header
   display: block;
   color: #FFFFFF;
   padding: 5px 20px 5px 20px;
-  font-size: 17pt;
+  font-size: 20pt;
 }
 
 td.header
@@ -25,8 +24,8 @@ td.header
 body
 {
   margin: 0px;
-  font-family:Calibri, 
-  sans-serif;
+  font-family: Calibri, sans-serif;
+  font-size: 20px;
 }
 
 div.mainText
