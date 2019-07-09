@@ -20,15 +20,32 @@
   
   function populateMobileSettings()
   {
-    var font = 30;
+    var font = 40;
     $(".mainText").css('font-size', font);
+    $(".header").css('font-size', font);
+    $(".mainText").css('padding-left', "5%");
+    $(".mainText").css('width', "90%");
+  }
+
+  function populateDesktopSettings()
+  {
+    var font = 20;
+    $(".mainText").css('font-size', font);
+    $(".header").css('font-size', font);
   }
   
   $( document ).ready(function() 
   {
     populateMenu();
-    alert(isMobile());
-    //populateMobileSettings();
+
+    if (isMobile())
+    {
+      populateMobileSettings();
+    }
+    else
+    {
+      populateDesktopSettings();
+    }
   }
    );
   

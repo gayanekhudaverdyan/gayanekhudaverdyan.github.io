@@ -13,7 +13,7 @@ a.header
   display: block;
   color: #FFFFFF;
   padding: 5px 20px 5px 20px;
-  font-size: 20pt;
+  //font-size: 20pt;
 }
 
 td.header
@@ -30,7 +30,8 @@ body
 
 div.mainText
 {
-  padding: 0px 10% 30px 10%;
+  width: 600px;
+  padding-left: 100px;
 }
 
 
