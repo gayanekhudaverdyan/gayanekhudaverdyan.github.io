@@ -1,4 +1,4 @@
-  $( document ).ready(function() 
+  function populateMenu()
   {
     var htmlCode = `
       <table class="header">
@@ -10,7 +10,25 @@
     `;
 
     $("#menu").html(htmlCode);
+  }
+  
+  function isMobile()
+  {
+      var md = new MobileDetect(window.navigator.userAgent);
+      return md.mobile()!=null;
+  }
+  
+  function populateMobileSettings()
+  {
     var font = 30;
     $(".mainText").css('font-size', font);
-    });
+  }
+  
+  $( document ).ready(function() 
+  {
+    populateMenu();
+    alert(isMobile());
+    //populateMobileSettings();
+  }
+   );
   
