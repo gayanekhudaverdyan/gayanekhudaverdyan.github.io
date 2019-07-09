@@ -8,7 +8,9 @@
         </tr>
       </table>
     `;
-	$( "#menu" ).html
-	(htmlCode);
+
+    $("#menu").html(htmlCode);
+    var font = 30;
+    $(".mainText").css('font-size', font);
+    });
   
-  });
