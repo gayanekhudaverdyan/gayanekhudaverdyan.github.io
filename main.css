@@ -9,6 +9,7 @@ table.header
 
 a.header 
 { 
+  font-size: 20px
   width: 1;
   display: block;
   color: #FFFFFF;
@@ -29,6 +30,7 @@ body
 
 div.mainText
 {
+  font-size: 20px
   width: 600px;
   padding-left: 100px;
 }

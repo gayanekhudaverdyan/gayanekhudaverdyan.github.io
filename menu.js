@@ -20,18 +20,18 @@
   
   function populateMobileSettings()
   {
-    var font = 13;
-    $(".mainText").css('font-size', font);
-    $(".header").css('font-size', font);
+    //var font = 13;
+    //$(".mainText").css('font-size', font);
+    //$(".header").css('font-size', font);
     $(".mainText").css('padding-left', "5%");
     $(".mainText").css('width', "90%");
   }
 
   function populateDesktopSettings()
   {
-    var font = 20;
-    $(".mainText").css('font-size', font);
-    $(".header").css('font-size', font);
+    //var font = 20;
+    //$(".mainText").css('font-size', font);
+    //$(".header").css('font-size', font);
   }
   
   $( document ).ready(function() 
