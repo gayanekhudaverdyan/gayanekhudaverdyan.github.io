@@ -22,6 +22,7 @@ td.header
 
 body
 {
+  text-size-adjust: none;  
   margin: 0px;
   font-family: Calibri, sans-serif;
 }
@@ -30,7 +31,6 @@ div.mainText
 {
   width: 600px;
   padding-left: 100px;
-  //font-size: 100px;
 }
 
 
