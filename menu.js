@@ -15,18 +15,16 @@
   function isMobile()
   {
       var md = new MobileDetect(window.navigator.userAgent);
-      return md.mobile()!=null;
+      return md.phone()!=null;
   }
   
   function populateMobileSettings()
   {
-    //alert($(".mainText").css('font-size'));
-    var font = 40;
+    var font = 13;
     $(".mainText").css('font-size', font);
     $(".header").css('font-size', font);
     $(".mainText").css('padding-left', "5%");
     $(".mainText").css('width', "90%");
-    //alert($(".mainText").css('font-size'));
   }
 
   function populateDesktopSettings()
