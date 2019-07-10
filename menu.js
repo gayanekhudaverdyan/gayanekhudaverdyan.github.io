@@ -29,7 +29,7 @@
 
   function populateDesktopSettings()
   {
-    var font = 20;
+    var font = 5;
     $(".mainText").css('font-size', font);
     $(".header").css('font-size', font);
   }
