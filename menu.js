@@ -20,13 +20,13 @@
   
   function populateMobileSettings()
   {
-    alert($(".mainText").css('font-size'));
+    //alert($(".mainText").css('font-size'));
     var font = 40;
     $(".mainText").css('font-size', font);
     $(".header").css('font-size', font);
     $(".mainText").css('padding-left', "5%");
     $(".mainText").css('width', "90%");
-    alert($(".mainText").css('font-size'));
+    //alert($(".mainText").css('font-size'));
   }
 
   function populateDesktopSettings()
