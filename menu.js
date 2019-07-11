@@ -34,6 +34,38 @@
     //$(".header").css('font-size', font);
   }
   
+  function getTDCellCode(imageNumber)
+  {
+    return `<td><img class="mainTable" src="image`+ imageNumber.toString() +`.jpg"></td>`;
+
+  }
+  function populateTables()
+  {
+    var idMin = parseInt($("#mainTable").attr('idMin'));
+    var idMax = parseInt($("#mainTable").attr('idMax'));
+    var htmlCode = '';
+    for (id = idMin; id <= idMax; id+=2)
+    {
+
+      htmlCode +=`<tr>`;
+      htmlCode += getTDCellCode(id);
+
+      if (id < idMax)
+      {
+        htmlCode += getTDCellCode(id + 1);
+      }
+      else
+      {
+        htmlCode += `<td></td>`;
+      }
+
+      htmlCode += `</tr>`;
+    }
+
+    $("#mainTable").html(htmlCode);
+
+  }
+
   $( document ).ready(function() 
   {
     populateMenu();
@@ -46,6 +78,8 @@
     {
       populateDesktopSettings();
     }
+    
+    populateTables();
   }
    );
   

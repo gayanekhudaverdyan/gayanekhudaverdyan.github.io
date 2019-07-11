@@ -9,7 +9,7 @@ table.header
 
 a.header 
 { 
-  font-size: 20px;
+  //font-size: 20px;
   width: 1;
   display: block;
   color: #FFFFFF;
@@ -26,13 +26,25 @@ body
   text-size-adjust: none;  
   margin: 0px;
   font-family: Calibri, sans-serif;
+  margin-bottom: 100px;
 }
 
 div.mainText
 {
-  font-size: 20px;
+  //font-size: 20px;
   width: 600px;
   padding-left: 100px;
+}
+
+td.mainTable
+{
+  width: 10xp;
+}
+
+img.mainTable
+{
+  width: 100%;
+  display: block;
 }
 
 
