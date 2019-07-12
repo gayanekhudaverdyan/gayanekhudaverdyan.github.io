@@ -24,7 +24,7 @@
     //$(".mainText").css('font-size', font);
     //$(".header").css('font-size', font);
     $(".mainText").css('padding-left', "5%");
-    $(".mainText").css('width', "90%");
+    $(".mainText").css('width', "40%");
   }
 
   function populateDesktopSettings()
