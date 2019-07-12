@@ -1,8 +1,6 @@
 
 table.header
 {
-  left: 0;
-  top: 0;
   width: 100%;
   border-spacing: 0; 
  }
@@ -23,7 +21,7 @@ td.header
 
 body
 {
-  text-size-adjust: none;  
+  //text-size-adjust: none;  
   margin: 0px;
   font-family: Calibri, sans-serif;
   margin-bottom: 100px;
@@ -34,13 +32,8 @@ div.mainText
   font-size: 14px;
   padding-left: 5%;
   width: 90%;
-
 }
 
-td.mainTable
-{
-  width: 10xp;
-}
 
 img.mainTable
 {

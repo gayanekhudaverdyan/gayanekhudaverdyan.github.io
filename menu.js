@@ -20,18 +20,20 @@
   
   function populateMobileSettings()
   {
-    //var font = 13;
-    //$(".mainText").css('font-size', font);
-    //$(".header").css('font-size', font);
-    //$(".mainText").css('padding-left', "5%");
-    //$(".mainText").css('width', "40%");
+    //nothing here
   }
 
   function populateDesktopSettings()
   {
-    //var font = 20;
-    //$(".mainText").css('font-size', font);
-    //$(".header").css('font-size', font);
+    var width = $(window).width();
+    if (width > 800)
+    {
+      $(".mainText").css('width', 600);
+    }
+    else
+    {
+      $(".mainText").css('width', "90%");
+    }
   }
   
   function getTDCellCode(imageNumber)
@@ -65,11 +67,9 @@
     $("#mainTable").html(htmlCode);
 
   }
-
-  $( document ).ready(function() 
+  
+  function populateCSSSettings()
   {
-    populateMenu();
-
     if (isMobile())
     {
       populateMobileSettings();
@@ -78,8 +78,18 @@
     {
       populateDesktopSettings();
     }
-    
+  }    
+
+  $( document ).ready(function() 
+  {
+    populateMenu();
+    populateCSSSettings();
     populateTables();
   }
-   );
+  );
   
+  $( window ).resize(function() 
+  {
+    populateCSSSettings();
+  }
+  );
