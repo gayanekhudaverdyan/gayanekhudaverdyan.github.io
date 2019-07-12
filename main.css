@@ -32,8 +32,9 @@ body
 div.mainText
 {
   //font-size: 20px;
-  width: 600px;
-  padding-left: 100px;
+  padding-left: 5%;
+  width: 90%;
+
 }
 
 td.mainTable
