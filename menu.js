@@ -23,8 +23,8 @@
     //var font = 13;
     //$(".mainText").css('font-size', font);
     //$(".header").css('font-size', font);
-    $(".mainText").css('padding-left', "5%");
-    $(".mainText").css('width', "40%");
+    //$(".mainText").css('padding-left', "5%");
+    //$(".mainText").css('width', "40%");
   }
 
   function populateDesktopSettings()
