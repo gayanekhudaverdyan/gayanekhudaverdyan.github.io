@@ -10,8 +10,8 @@
     var htmlCode = `
       <table class="header">
         <tr>
-          <td class="header" bgcolor="#000000"><a class = "header" href="`+ link + `">Главная&nbsp;страница</a></td>
-          <td bgcolor="#000000"></td>
+          <td class="header" bgcolor="#E74C3C"><a class = "header" href="`+ link + `">Главная&nbsp;страница</a></td>
+          <td bgcolor="#E74C3C"></td>
         </tr>
       </table>
     `;
