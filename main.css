@@ -3,12 +3,12 @@ table.header
 {
   width: 100%;
   border-spacing: 0; 
- }
+}
 
 a.header 
 { 
   //font-size: 20px;
-  width: 1;
+  //width: 1;
   display: block;
   color: #FFFFFF;
   padding: 5px 20px 5px 20px;
@@ -34,6 +34,10 @@ div.mainText
   width: 90%;
 }
 
+table.mainTable
+{
+  border-spacing: 100; 
+}
 
 img.mainTable
 {
@@ -41,5 +45,15 @@ img.mainTable
   display: block;
 }
 
+td.mainTable
+{
+  //width: 1px;
+}
+
+div.mainTable
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 	

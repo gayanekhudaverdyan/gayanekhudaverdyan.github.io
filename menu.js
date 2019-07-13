@@ -38,14 +38,15 @@
   
   function getTDCellCode(imageNumber)
   {
-    return `<td><img class="mainTable" src="image`+ imageNumber.toString() +`.jpg"></td>`;
+    return `<td class="mainTable"><img class="mainTable" src="image`+ imageNumber.toString() +`.jpg"></td>`;
 
   }
   function populateTables()
   {
-    var idMin = parseInt($("#mainTable").attr('idMin'));
-    var idMax = parseInt($("#mainTable").attr('idMax'));
-    var htmlCode = '';
+    var idMin = parseInt($("#mainTableId").attr('idMin'));
+    var idMax = parseInt($("#mainTableId").attr('idMax'));
+    var htmlCode = `<table class="mainTable">`;
+
     for (id = idMin; id <= idMax; id+=2)
     {
 
@@ -63,8 +64,9 @@
 
       htmlCode += `</tr>`;
     }
-
-    $("#mainTable").html(htmlCode);
+    htmlCode += `</table>`;
+    
+    $("#mainTableId").html(htmlCode);
 
   }
   
