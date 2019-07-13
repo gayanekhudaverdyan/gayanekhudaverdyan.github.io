@@ -72,7 +72,6 @@
       htmlCode += `</tr>`;
     }
     htmlCode += `</table>`;
-    
     $("#mainTableId").html(htmlCode);
 
   }
