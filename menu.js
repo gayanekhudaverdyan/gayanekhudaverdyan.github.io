@@ -48,10 +48,10 @@
     return `<td class="mainTable"><img class="mainTable" src="image`+ imageNumber.toString() +`.jpg"></td>`;
 
   }
-  function populateTables()
+  function populateTables(idKey)
   {
-    var idMin = parseInt($("#mainTableId").attr('idMin'));
-    var idMax = parseInt($("#mainTableId").attr('idMax'));
+    var idMin = parseInt($(idKey).attr('idMin'));
+    var idMax = parseInt($(idKey).attr('idMax'));
     var htmlCode = `<table class="mainTable">`;
 
     for (id = idMin; id <= idMax; id+=2)
@@ -72,8 +72,16 @@
       htmlCode += `</tr>`;
     }
     htmlCode += `</table>`;
-    $("#mainTableId").html(htmlCode);
+    $(idKey).html(htmlCode);
 
+  }
+  
+  function populateAllTables()
+  {
+    populateTables("#mainTableId");
+    populateTables("#mainTableId1");
+    populateTables("#mainTableId2");
+    populateTables("#mainTableId3");
   }
   
   function populateCSSSettings()
@@ -92,7 +100,7 @@
   {
     populateMenu();
     populateCSSSettings();
-    populateTables();
+    populateAllTables();
   }
   );
   
