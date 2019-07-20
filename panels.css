@@ -1,0 +1,23 @@
+a.panel
+{
+  font-size: 25px;
+  color: #FFFFFF;
+}
+div.panel
+{
+  background-color: rgb(250, 215, 180);
+  width: 200px;
+  min-height: 200px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+img.panel
+{
+  border-radius: 20px;
+  display: block;
+  width: 100%;
+  bottom: 10%;
+  //margin-top: 10%; 
+}  
