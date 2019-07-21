@@ -108,7 +108,7 @@ var links =
     <a class="panel" href="` + link + `/index.html">
     <div class="panel">` + 
     name +
-    `<img class="panel" src="` + imageLink + `">` +
+    `<img class="panel" src="` + imageLink + `" onerror="$(this).hide();">` +
       `</div>
     </a>
     `
@@ -123,7 +123,7 @@ var links =
     for (var i in links)
     {
       htmlCode += generatePanelHTMLCode(
-        links[i][0], links[i][1], 'harisa/image637.jpg');
+        links[i][0], links[i][1], links[i][0]+'/main.jpg');
     }
     $("#panels").html(htmlCode);
   }
