@@ -19,5 +19,12 @@ img.panel
   display: block;
   width: 100%;
   bottom: 10%;
-  //margin-top: 10%; 
 }  
+
+div.panels
+{
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
