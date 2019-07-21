@@ -4,12 +4,17 @@ a.panel
   color: #FFFFFF;
 }
 
+div.panels
+{
+  font-size: 18px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
 div.panel
 {
   background-color: rgb(250, 215, 180);
-  max-width: 120px;
-  //min-height: 200px;
-  min-width: 120px;
   border-radius: 20px;
   display: inline-block;
   text-align: center;
@@ -21,12 +26,4 @@ img.panel
   display: block;
   width: 100%;
   //bottom: 10%;
-}  
-
-div.panels
-{
-  font-size: 18px;
-  padding-left: 5%;
-  padding-right: 5%;
 }
-

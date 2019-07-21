@@ -117,8 +117,8 @@ var links =
 
   }
   
-  $( document ).ready(function() 
-  { 
+  function generatePanels()
+  {
     var htmlCode = "";
     for (var i in links)
     {
@@ -126,5 +126,24 @@ var links =
         links[i][0], links[i][1], 'harisa/image637.jpg');
     }
     $("#panels").html(htmlCode);
+  }
+
+  function updateCSS()
+  {
+    var width = $(window).width();
+    if (width < 400)
+    {
+      $("div.panel").css('width', "45%");
+    }
+    else
+    {
+      $("div.panel").css('width', "170px");
+    }
+  }
+
+  $( document ).ready(function() 
+  { 
+    generatePanels();
+    updateCSS();
   }
   );
