@@ -106,13 +106,14 @@ var links =
   {
     var HTMLCode = `
     <a class="panel" href="` + link + `/index.html">
-    <div class="panel">
-    <div class="panelText">
-    ` + 
-    name +
-    `</div>
-    <img class="panel" src="` + imageLink + `" onerror="$(this).hide();">` +
-      `</div>
+      <div class="panel">
+        <div class="panelText">` + 
+          name +
+       `</div>
+        <div class="panelImg">
+          <img class="panel" src="` + imageLink + `" onerror="$(this).hide();">` +
+       `</div>
+     </div>
     </a>
     `
     

@@ -19,23 +19,25 @@ div.panel
   border-radius: 20px;
   display: inline-block;
   text-align: center;
-  //min-height:100px;
-  //vertical-align: middle;
   margin: 5px;
+  box-shadow: -2px -2px 5px rgba(0,0,0,0.5);
 }
 
 div.panelText
 {
-  //background-color: rgb(250, 100, 100);
-  //border-radius: 20px;
   min-height:50px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  align: center;
   text-align: center;
   vertical-align: middle;
+}
+
+div.panelImg
+{
+  //background-color: rgb(250, 100, 100);
+  //height:200px;
 }
 
 
