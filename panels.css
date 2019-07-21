@@ -15,14 +15,29 @@ div.panels
 
 div.panel
 {
-  background-color: rgb(250, 215, 180);
+  background-color: rgb(250, 215, 160);
   border-radius: 20px;
   display: inline-block;
   text-align: center;
-  min-height:50px;
-  vertical-align: middle;
+  //min-height:100px;
+  //vertical-align: middle;
   margin: 5px;
-  }
+}
+
+div.panelText
+{
+  //background-color: rgb(250, 100, 100);
+  //border-radius: 20px;
+  min-height:50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 img.panel
 {

@@ -106,9 +106,12 @@ var links =
   {
     var HTMLCode = `
     <a class="panel" href="` + link + `/index.html">
-    <div class="panel">` + 
+    <div class="panel">
+    <div class="panelText">
+    ` + 
     name +
-    `<img class="panel" src="` + imageLink + `" onerror="$(this).hide();">` +
+    `</div>
+    <img class="panel" src="` + imageLink + `" onerror="$(this).hide();">` +
       `</div>
     </a>
     `
