@@ -146,4 +146,11 @@ var links =
     generatePanels();
     updateCSS();
   }
+  
+    $( window ).resize(function() 
+  {
+    updateCSS();
+  }
+
+  
   );
