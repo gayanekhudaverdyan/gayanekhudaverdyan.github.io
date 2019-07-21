@@ -108,7 +108,7 @@ var links =
     <a class="panel" href="` + link + `/index.html">
     <div class="panel">` + 
     name +
-    //`<img class="panel" src="` + imageLink + `">` +
+    `<img class="panel" src="` + imageLink + `">` +
       `</div>
     </a>
     `

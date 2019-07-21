@@ -1,13 +1,15 @@
 a.panel
 {
-  font-size: 25px;
+  font-size: 14px;
   color: #FFFFFF;
 }
+
 div.panel
 {
   background-color: rgb(250, 215, 180);
-  width: 200px;
-  min-height: 200px;
+  max-width: 120px;
+  //min-height: 200px;
+  min-width: 120px;
   border-radius: 20px;
   display: inline-block;
   text-align: center;
@@ -18,7 +20,7 @@ img.panel
   border-radius: 20px;
   display: block;
   width: 100%;
-  bottom: 10%;
+  //bottom: 10%;
 }  
 
 div.panels
