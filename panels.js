@@ -93,7 +93,7 @@ var links =
   ["chakhokhbili", "Чахохбили из курицы"],
   ["chebureki", "Чебуреки"],
   ["chkhrtma", "Чхртма (грузинский суп с курицей)"],
-  ["shokolady_keks", "Шоколадные кексы с семенами льна ывавыавыа "],
+  ["shokolady_keks", "Шоколадные кексы с семенами льна"],
   ["spinat_s_jaicom", "Шпинат с яйцом"],
   ["shavel_sup", "Щавелевый суп"],
   ["kholodnaia_zakuska_is_jazyka", "Язык (холодная закуска)"],
