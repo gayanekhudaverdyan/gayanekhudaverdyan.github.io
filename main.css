@@ -7,22 +7,35 @@ table.header
 
 a.header 
 { 
-  font-size: 25px;
-  //width: 1;
+  font-size: 22px;
   display: block;
-  color: #FFFFFF;
+  color: white;
   padding: 5px 20px 5px 20px;
+  text-decoration:none;
 }
 
-td.header
+div.header
 {
-  width: 1px;
+  border-radius: 20px;
+  background-color: rgb(231, 76, 60);
+  display: inline-block;
+  box-shadow: -2px -2px 5px rgba(0,0,0,0.5);
+  text-align: justify;
 }
+
+div.header:active {
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+div.menu
+{
+}
+
 
 body
 {
   //text-size-adjust: none;  
-  margin: 0px;
+  margin-top: 20px;
   font-family: Calibri, sans-serif;
   margin-bottom: 100px;
 }

@@ -1,19 +1,28 @@
-  function populateMenu()
+  function getLink(path)
   {
     var menuTag = $("#menu").attr('tag');
-    var link = `../index.html`;
+    var link = `../` + path;
     if (menuTag == "main")
     {
-      link = ``;
+      link = path;
     }
+    return link
+  }
+
+  function populateMenu()
+  {
+    linkToMain = getLink("index.html")
+    linkToAbout = getLink("about.html")
 
     var htmlCode = `
-      <table class="header">
-        <tr>
-          <td class="header" bgcolor="#E74C3C"><a class = "header" href="`+ link + `">Главная&nbsp;страница</a></td>
-          <td bgcolor="#E74C3C"></td>
-        </tr>
-      </table>
+      <div class="menu">
+        <div class="header">
+          <a class = "header" href="`+ linkToMain + `">Все&nbsp;рецепты</a>
+        </div>
+        <div class="header">
+          <a class = "header" href="`+ linkToAbout + `">О&nbsp;сайте</a>
+        </div>
+      </div>
     `;
 
     $("#menu").html(htmlCode);
