@@ -28,29 +28,8 @@
     $("#menu").html(htmlCode);
   }
   
-  function isMobile()
-  {
-      var md = new MobileDetect(window.navigator.userAgent);
-      return md.phone()!=null;
-  }
-  
-  function populateMobileSettings()
-  {
-    //nothing here
-  }
+ 
 
-  function populateDesktopSettings()
-  {
-    var width = $(window).width();
-    if (width > 800)
-    {
-      $(".mainText").css('width', 600);
-    }
-    else
-    {
-      $(".mainText").css('width', "90%");
-    }
-  }
   
   function getTDCellCode(imageNumber)
   {
@@ -95,13 +74,24 @@
   
   function populateCSSSettings()
   {
-    if (isMobile())
+    maxWidth = 800;
+    stretchingCoeff = 0.9;
+
+    var width = $(window).width();
+    
+    if (width > maxWidth)
     {
-      populateMobileSettings();
-    }
+      var textWidth = maxWidth * stretchingCoeff;
+      var padding = (width - textWidth) / 2
+      $(".mainText").css('width', textWidth);
+      $(".mainText").css('padding-left', padding);
+      }
     else
     {
-      populateDesktopSettings();
+      stretchingCoeffPercent = (stretchingCoeff * 100).toString()+ '%';
+      paddingPercent = ((1 - stretchingCoeff) / 2 * 100).toString()+ '%';
+      $(".mainText").css('width', stretchingCoeffPercent);
+      $(".mainText").css('padding-left', paddingPercent);
     }
   }    
 

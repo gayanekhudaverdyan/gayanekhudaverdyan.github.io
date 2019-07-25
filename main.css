@@ -32,11 +32,14 @@ body
   margin-bottom: 100px;
 }
 
+div.menu
+{
+  text-align: center;
+}
+
 div.mainText
 {
   font-size: 18px;
-  padding-left: 5%;
-  width: 90%;
 }
 
 div.consist
