@@ -112,7 +112,7 @@ var links =
           name +
        `</div>
         <div class="panelImg">
-          <img class="panel" src="` + imageLink + `" onerror="this.src='tarelka.jpg'">` +
+          <img class="panel" src="` + imageLink + `">` +
        `</div>
      </div>
     </a>
