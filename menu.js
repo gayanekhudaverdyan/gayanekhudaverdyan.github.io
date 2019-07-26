@@ -95,8 +95,16 @@
     }
   }    
 
+  function populateTitleName(document)
+  {
+    stringTitle=$("h1").text();
+    stringTitle += $("div.mainText h2").text();
+    document.title = stringTitle;
+  }
+
   $( document ).ready(function() 
   {
+    populateTitleName(document);
     populateMenu();
     populateCSSSettings();
     populateAllTables();
