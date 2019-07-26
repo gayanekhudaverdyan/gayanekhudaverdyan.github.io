@@ -11,7 +11,7 @@
 
   function populateMenu()
   {
-    linkToMain = getLink("index.html")
+    linkToMain = getLink("")
     linkToAbout = getLink("about.html")
 
     var htmlCode = `
