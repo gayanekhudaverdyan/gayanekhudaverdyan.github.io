@@ -4,14 +4,14 @@
     var link = `../` + path;
     if (menuTag == "main")
     {
-      link = path;
+      link = `/` + path;
     }
     return link
   }
 
   function populateMenu()
   {
-    linkToMain = getLink("index.html")
+    linkToMain = getLink("")
     linkToAbout = getLink("about.html")
 
     var htmlCode = `

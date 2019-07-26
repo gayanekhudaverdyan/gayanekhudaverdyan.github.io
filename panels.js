@@ -106,7 +106,7 @@ var links =
   function generatePanelHTMLCode(link, name, imageLink)
   {
     var HTMLCode = `
-    <a class="panel" href="` + link + `/index.html">
+    <a class="panel" href="` + link + `/">
       <div class="panel">
         <div class="panelText">` + 
           name +
