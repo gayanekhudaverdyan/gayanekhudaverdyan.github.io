@@ -128,7 +128,7 @@ var links =
     for (var i in links)
     {
       htmlCode += generatePanelHTMLCode(
-        links[i][0], links[i][1], links[i][0]+'/main.jpg');
+        links[i][0], links[i][1], links[i][0]+'/main_thumbnail.jpg');
     }
     $("#panels").html(htmlCode);
   }
