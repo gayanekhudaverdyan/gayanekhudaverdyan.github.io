@@ -1,0 +1,2 @@
+python resizePics.py
+pause
