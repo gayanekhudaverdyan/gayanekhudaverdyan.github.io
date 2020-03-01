@@ -1,5 +1,6 @@
 var links =
 [
+  ["adjika", "Аджика"],
   ["harisa", "Ариса"],
   ["achma", "Ачма"],
   ["jarenye_baklajany", "Баклажаны жареные"],
