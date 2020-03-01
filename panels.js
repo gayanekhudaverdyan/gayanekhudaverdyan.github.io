@@ -42,6 +42,7 @@ var links =
   ["medovye_korji", "Медовые коржи"],
   ["mikado", "Микадо"],
   ["molochny_sup_katnov", 'Молочный суп с рисом "катнов"'],
+  ["morkovny_keks", "Морковный кекс"],
   ["morkovny_salat", "Морковный салат с грецкими орехами"],
   ["myaso_s_ovoshami", "Мясо с овощами"],
   ["olivie", "Оливье"],
