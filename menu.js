@@ -13,6 +13,7 @@
   {
     linkToMain = getLink("")
     linkToAbout = getLink("about.html")
+    linkToKnitting = getLink("https://goo.gl/photos/ZNStASHPyEdkYbuK6")
 
     var htmlCode = `
       <div class="menu">
@@ -22,6 +23,10 @@
         <div class="header">
           <a class = "header" href="`+ linkToAbout + `">О&nbsp;сайте</a>
         </div>
+        <div class="header">
+          <a class = "header" href="`+ linkToKnitting + `">Вазяние</a>
+        </div>
+       
       </div>
     `;
 
