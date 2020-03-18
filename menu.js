@@ -24,7 +24,7 @@
           <a class = "header" href="`+ linkToAbout + `">О&nbsp;сайте</a>
         </div>
         <div class="header">
-          <a class = "header" href="`+ linkToKnitting + `">Вазяние</a>
+          <a class = "header" href="`+ linkToKnitting + `">Вязание</a>
         </div>
        
       </div>
