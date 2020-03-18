@@ -13,7 +13,7 @@
   {
     linkToMain = getLink("")
     linkToAbout = getLink("about.html")
-    linkToKnitting = getLink("https://goo.gl/photos/ZNStASHPyEdkYbuK6")
+    linkToKnitting = "https://goo.gl/photos/ZNStASHPyEdkYbuK6"
 
     var htmlCode = `
       <div class="menu">
