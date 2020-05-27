@@ -8,7 +8,7 @@ var links =
   ["barania_noga", "Баранья нога, запеченная в духовке"],
   ["beefstroganoff", "Бефстроганов"],
   ["bliny", "Блинчики"],
-  ["biskvitnoe_testo", "Бисквитное тесто"],
+  ["biskvitny_tort", "Бисквитный торт"],
   ["bozbash", "Бозбаш"],
   ["borshtch", "Борщ"],
   ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
