@@ -85,6 +85,7 @@ var links =
   ["tabule", "Табуле"],
   ["testo_dlia_piroga", "Тесто для пирога"],
   ["tort_jozephina", "Торт Жозефина"],
+  ["tort_medovoe_so_slivkami", 'Торт или пироженое "медовое со сливками"'],
   ["kapama_tykvennaia_kasha", 'Тыквенная каша с рисом "капама"'],
   ["uzbekski_plov", "Узбекский плов"],
   ["farshirovany_perec", "Фаршированный перец"],
