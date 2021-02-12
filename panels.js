@@ -30,6 +30,7 @@ var links =
   ["zelenaia_fasol", "Зеленая фасоль с лукок и яйцами"],
   ["jarenie_kabachki", "Кабачки жареные"],
   ["keks", "Кекс"],
+  ["keks_shokoladny", "Кекс шоколадный"],
   ["keksovoe_testo", "Кексовое тесто"],
   ["kotlety", "Котлеты"],
   ["kubete", "Кубете"],
