@@ -51,6 +51,7 @@ var links =
   ["pasuc_dolma", "Пасуц долма (постные голубнцы)"],
   ["pashtet_sup_is_krasoi_fasoli", "Паштет и суп из красной фасоли"],
   ["pashtet_is_pecheni", "Паштет из печени"],
+  ["pechenie_iz_detstva", "Печенье из нашего детства"],
   ["pelmeni", "Пельмени"],
   ["pirojki", "Пирожки"],
   ["piti", "Пити (густой суп из баранины)"],
