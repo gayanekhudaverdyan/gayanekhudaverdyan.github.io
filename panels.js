@@ -29,7 +29,6 @@ var links =
   ["zakuska_iz_pechenikh_baklajan", "Закуска из печеных баклажан"],
   ["zelenaia_fasol", "Зеленая фасоль с лукок и яйцами"],
   ["jarenie_kabachki", "Кабачки жареные"],
-  ["keks", "Кекс"],
   ["keks_shokoladny", "Кекс шоколадный"],
   ["keksovoe_testo", "Кексовое тесто"],
   ["kotlety", "Котлеты"],
@@ -108,7 +107,8 @@ var links =
   ["jaichnica_s_pomidorami", "Яичница с помидорами"],
   ["packh_jaica", "Яйца пасхальные"],
   ["jaica_po_evreiski", "Яйца по-еврейски"],
-  ["khash", "Хаш"]
+  ["khash", "Хаш"],
+  ["keks", "Кекс"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
