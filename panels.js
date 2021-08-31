@@ -109,7 +109,8 @@ var links =
   ["jaica_po_evreiski", "Яйца по-еврейски"],
   ["khash", "Хаш"],
   ["keks", "Кекс"],
-  ["tvorojnoe_pechenie", "Творожное печенье"]
+  ["tvorojnoe_pechenie", "Творожное печенье"],
+  ["shokoladny_biskvit", "Шоколадный бисквит"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
