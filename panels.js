@@ -111,7 +111,8 @@ var links =
   ["keks", "Кекс"],
   ["tvorojnoe_pechenie", "Творожное печенье"],
   ["shokoladny_biskvit", "Шоколадный бисквит"],
-  ["keks_shokoladny_s_abrikosovym_djemom", "Кекс шоколадный с абрикосовым джемом"]
+  ["keks_shokoladny_s_abrikosovym_djemom", "Кекс шоколадный с абрикосовым джемом"],
+  ["keks_bananovy", "Кекс банановый"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
