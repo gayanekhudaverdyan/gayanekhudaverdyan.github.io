@@ -10,7 +10,6 @@ var links =
   ["bliny", "Блинчики"],
   ["biskvitny_tort", "Бисквитный торт"],
   ["bozbash", "Бозбаш"],
-  ["borshtch", "Борщ"],
   ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
   ["bujenina", "Буженина из индейки или свинины"],
   ["jareny_vermishel_lapsha", "Вермишель жареная"],
@@ -46,7 +45,6 @@ var links =
   ["myaso_s_ovoshami", "Мясо с овощами"],
   ["olivie", "Оливье"],
   ["pasuc_dolma", "Пасуц долма (постные голубнцы)"],
-  ["pashtet_sup_is_krasoi_fasoli", "Паштет и суп из красной фасоли"],
   ["pashtet_is_pecheni", "Паштет из печени"],
   ["pechenie_iz_detstva", "Печенье из нашего детства"],
   ["pelmeni", "Пельмени"],
@@ -75,7 +73,6 @@ var links =
   ["spas", "Спас"],
   ["sup_krchik", "Суп крчик"],
   ["sup_ovoshnoi", "Суп овощной"],
-  ["sup_rassolnik", "Суп рассольник"],
   ["sup_kharcho", "Суп харчо из баранины"],
   ["sup_khashborek", "Суп хашборек"],
   ["sup_pure", "Суп-пюре"],
@@ -89,7 +86,6 @@ var links =
   ["farshirovany_perec", "Фаршированный перец"],
   ["fruktovy_salat", "Фруктовый салат"],
   ["khachapuri", "Хачапури"],
-  ["khashlama", "Хашлама"],
   ["khaslama_pikantnaia", "Хашлама пикантная"],
   ["khinkali", "Хинкали"],
   ["kholodnia_zakuska_fasol", "Холодная закуска из зеленой фасоли"],
@@ -100,7 +96,6 @@ var links =
   ["sharlotka", "Шарлотка"],
   ["shokolady_keks", "Шоколадные кексы с семенами льна"],
   ["spinat_s_jaicom", "Шпинат с яйцом"],
-  ["shavel_sup", "Щавелевый суп"],
   ["kholodnaia_zakuska_is_jazyka", "Язык (холодная закуска)"],
   ["jaichnica_s_pomidorami", "Яичница с помидорами"],
   ["packh_jaica", "Яйца пасхальные"],
@@ -112,8 +107,12 @@ var links =
   ["keks_shokoladny_s_abrikosovym_djemom", "Кекс шоколадный с абрикосовым джемом"],
   ["keks_bananovy", "Кекс банановый"],
   ["keks_shokoladny", "Кекс шоколадный"],
-  ["mikado", "Микадо"]
- 
+  ["mikado", "Микадо"],
+  ["pashtet_sup_is_krasoi_fasoli", "Паштет и суп из красной фасоли"],
+  ["sup_rassolnik", "Суп рассольник"],
+  ["borshtch", "Борщ"],
+  ["khashlama", "Хашлама"],
+  ["shavel_sup", "Щавелевый суп"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
