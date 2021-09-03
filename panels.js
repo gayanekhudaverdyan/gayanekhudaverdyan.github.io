@@ -89,7 +89,6 @@ var links =
   ["khaslama_pikantnaia", "Хашлама пикантная"],
   ["khinkali", "Хинкали"],
   ["kholodnia_zakuska_fasol", "Холодная закуска из зеленой фасоли"],
-  ["cvetnaja_kapusta_jarenaja", "Цветная капуста жареная"],
   ["chakhokhbili", "Чахохбили из курицы"],
   ["chebureki", "Чебуреки"],
   ["chkhrtma", "Чхртма (грузинский суп с курицей)"],
@@ -113,7 +112,8 @@ var links =
   ["borshtch", "Борщ"],
   ["khashlama", "Хашлама"],
   ["shavel_sup", "Щавелевый суп"],
-  ["gorokhovy_sup", "Гороховый суп с копченой индейкой"]
+  ["gorokhovy_sup", "Гороховый суп с копченой индейкой"],
+  ["cvetnaja_kapusta_jarenaja", "Цветная капуста жареная"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
