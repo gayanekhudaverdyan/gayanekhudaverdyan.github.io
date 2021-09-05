@@ -9,7 +9,6 @@ var links =
   ["bliny", "Блинчики"],
   ["biskvitny_tort", "Бисквитный торт"],
   ["bozbash", "Бозбаш"],
-  ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
   ["bujenina", "Буженина из индейки или свинины"],
   ["jareny_vermishel_lapsha", "Вермишель жареная"],
   ["vinigret_kolkhozny", "Винегрет колхозный"],
@@ -117,7 +116,8 @@ var links =
   ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"],
   ["salat", "Салат"],
   ["kurinye_grudki_v_kliare", "Куриные грудки в кляре"],
-  ["packh_jaica", "Яйца пасхальные"]
+  ["packh_jaica", "Яйца пасхальные"],
+  ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
