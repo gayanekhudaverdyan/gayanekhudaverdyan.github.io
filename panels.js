@@ -116,7 +116,8 @@ var links =
   ["pure_kartofelnoe", "Пюре картофельное"],
   ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"],
   ["bamia", "Бамия"],
-  ["zaruska_iz_pecheni_treski", "Закуска из печени трески"]
+  ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
+  ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
