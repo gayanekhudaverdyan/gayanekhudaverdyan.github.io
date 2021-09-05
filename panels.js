@@ -4,7 +4,6 @@ var links =
   ["harisa", "Ариса"],
   ["achma", "Ачма"],
   ["jarenye_baklajany", "Баклажаны жареные"],
-  ["bamia", "Бамия"],
   ["barania_noga", "Баранья нога, запеченная в духовке"],
   ["beefstroganoff", "Бефстроганов"],
   ["bliny", "Блинчики"],
@@ -116,7 +115,8 @@ var links =
   ["khop_khop", "Хо-хоп"],
   ["tkemali", "Ткемали"],
   ["pure_kartofelnoe", "Пюре картофельное"],
-  ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"]
+  ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"],
+  ["bamia", "Бамия"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
