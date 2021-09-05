@@ -34,7 +34,6 @@ var links =
   ["marinovka", "Мариновка (баранина, свинина, индейка, курица)"],
   ["medovye_korji", "Медовые коржи"],
   ["molochny_sup_katnov", 'Молочный суп с рисом "катнов"'],
-  ["morkovny_keks", "Морковный кекс"],
   ["morkovny_salat", "Морковный салат с грецкими орехами"],
   ["myaso_s_ovoshami", "Мясо с овощами"],
   ["olivie", "Оливье"],
@@ -117,7 +116,8 @@ var links =
   ["kurinye_grudki_v_kliare", "Куриные грудки в кляре"],
   ["packh_jaica", "Яйца пасхальные"],
   ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
-  ["grenki", "Гренки"]
+  ["grenki", "Гренки"],
+  ["morkovny_keks", "Морковный кекс"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
