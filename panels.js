@@ -15,7 +15,6 @@ var links =
   ["jareny_vermishel_lapsha", "Вермишель жареная"],
   ["vinigret_kolkhozny", "Винегрет колхозный"],
   ["garni_yarakh", "Гарни-ярах"],
-  ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"],
   ["golubcy_s_kapustoi", "Голубцы с капустой"],
   ["grenki", "Гренки"],
   ["gribnoi_sup", "Грибной суп"],
@@ -116,7 +115,8 @@ var links =
   ["cvetnaja_kapusta_jarenaja", "Цветная капуста жареная"],
   ["khop_khop", "Хо-хоп"],
   ["tkemali", "Ткемали"],
-  ["pure_kartofelnoe", "Пюре картофельное"]
+  ["pure_kartofelnoe", "Пюре картофельное"],
+  ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
