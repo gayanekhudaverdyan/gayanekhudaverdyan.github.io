@@ -114,7 +114,8 @@ var links =
   ["shavel_sup", "Щавелевый суп"],
   ["gorokhovy_sup", "Гороховый суп с копченой индейкой"],
   ["cvetnaja_kapusta_jarenaja", "Цветная капуста жареная"],
-  ["khop_khop", "Хоп хоп"]
+  ["khop_khop", "Хо-хоп"],
+  ["tkemali", "Тхемали"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
