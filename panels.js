@@ -29,7 +29,6 @@ var links =
   ["kotlety", "Котлеты"],
   ["kubete", "Кубете"],
   ["kuku", "Куку (пирог)"],
-  ["kurinye_grudki_v_kliare", "Куриные грудки в кляре"],
   ["kurica_s_pivom", "Курица, замаринованная в луке, политая пивом"],
   ["kurica_zamarinovannaia", "Курица, замаринованная в луке, политая сметаной"],
   ["letnija_zakuska", "Летняя закуска из печенных овощей"],
@@ -117,7 +116,8 @@ var links =
   ["bamia", "Бамия"],
   ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
   ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"],
-  ["salat", "Салат"]
+  ["salat", "Салат"],
+  ["kurinye_grudki_v_kliare", "Куриные грудки в кляре"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
