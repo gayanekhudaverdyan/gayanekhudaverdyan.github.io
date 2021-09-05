@@ -22,7 +22,6 @@ var links =
   ["jarenaia_ryba_v_kliare", "Жареная рыба в кляре"],
   ["jarenye_baklajany_bolgarsky_perec", "Жареные баклажаны, болгарский перец и помидоры"],
   ["jarkoe", "Жаркое"],
-  ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
   ["zakuska_iz_pechenikh_baklajan", "Закуска из печеных баклажан"],
   ["zelenaia_fasol", "Зеленая фасоль с лукок и яйцами"],
   ["jarenie_kabachki", "Кабачки жареные"],
@@ -116,7 +115,8 @@ var links =
   ["tkemali", "Ткемали"],
   ["pure_kartofelnoe", "Пюре картофельное"],
   ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"],
-  ["bamia", "Бамия"]
+  ["bamia", "Бамия"],
+  ["zaruska_iz_pecheni_treski", "Закуска из печени трески"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
