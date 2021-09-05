@@ -58,7 +58,6 @@ var links =
   ["ryba", "Рыба вареная"],
   ["rybnye_konservy", "Рыбные консервы"],
   ["rybny_sup", "Рыбный суп, или уха"],
-  ["salat", "Салат"],
   ["salat_iz_kurinykh_grudok", "Салат из куриных грудок"],
   ["salat_c_chechevicej", "Салат с чечевицей"],
   ["svekolny_salat", "Свекольный салат"],
@@ -117,7 +116,8 @@ var links =
   ["goviadina_v_shampinione", "Говядина с шампиньонами в сметанном соусе"],
   ["bamia", "Бамия"],
   ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
-  ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"]
+  ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"],
+  ["salat", "Салат"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
