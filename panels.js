@@ -117,7 +117,8 @@ var links =
   ["packh_jaica", "Яйца пасхальные"],
   ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
   ["grenki", "Гренки"],
-  ["morkovny_keks", "Морковный кекс"]
+  ["morkovny_keks", "Морковный кекс"],
+  ["khaslama_s_pomidorami_i_pivom", "Хашлама с помидорами и пивом"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
