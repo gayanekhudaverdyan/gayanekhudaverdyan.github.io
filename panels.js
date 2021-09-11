@@ -118,7 +118,8 @@ var links =
   ["brokkoli_v_jaicakh", "Брокколи в яйцах и панировочных сухарях"],
   ["grenki", "Гренки"],
   ["morkovny_keks", "Морковный кекс"],
-  ["khaslama_s_pomidorami_i_pivom", "Хашлама с помидорами и пивом"]
+  ["khaslama_s_pomidorami_i_pivom", "Хашлама с помидорами и пивом"],
+  ["suzme_pelmeni", "Сузме (пельмени, заправленные подливой из грецких орехов)"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
