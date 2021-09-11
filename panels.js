@@ -119,7 +119,8 @@ var links =
   ["grenki", "Гренки"],
   ["morkovny_keks", "Морковный кекс"],
   ["khaslama_s_pomidorami_i_pivom", "Хашлама с помидорами и пивом"],
-  ["suzme_pelmeni", "Сузме (пельмени, заправленные подливой из грецких орехов)"]
+  ["suzme_pelmeni", "Сузме (пельмени, заправленные подливой из грецких орехов)"],
+  ["sarakh", "Сарах (национальное блюдо Крымчаков)"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
