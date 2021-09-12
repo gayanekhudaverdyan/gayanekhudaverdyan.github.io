@@ -123,8 +123,8 @@ var links =
   ["sarakh", "Сарах (национальное блюдо крымчаков)"],
   ["cheche", "Чече (национальное блюдо крымчаков)"],
   ["pahlava_sochinskaia", "Пахлава cочинская (из рубленного теста)"],
-  ["sacivi", "Сациви"]
- 
+  ["sacivi", "Сациви"],
+  ["eklery_ili_shu", "Эклеры или шу"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
