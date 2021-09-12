@@ -128,7 +128,8 @@ var links =
   ["glazur_shokoladaia", "Глазурь шоколадная"],
   ["testo_medovogo_biskvita", "Тесто медового бисквита"],
   ["bezdrojevoe_sloenoe_testo", "Бездрожжевое слоеное тесто"],
-  ["pesochonoe_testo_dlia_korzinochek", "Песочное тесто для корзиночек"]
+  ["pesochonoe_testo_dlia_korzinochek", "Песочное тесто для корзиночек"],
+  ["krem_nuga", "Крем нуга"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
