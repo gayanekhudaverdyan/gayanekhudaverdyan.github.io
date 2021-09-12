@@ -131,7 +131,8 @@ var links =
   ["pesochonoe_testo_dlia_korzinochek", "Песочное тесто для корзиночек"],
   ["krem_nuga", "Крем нуга"],
   ["shokoladny_krem_belochka", "Шоколадный крем белочка"],
-  ["krem_poluzavarnoi_poluslivochny", "Крем полузаварной полусливочный (идеал)"]
+  ["krem_poluzavarnoi_poluslivochny", "Крем полузаварной полусливочный (идеал)"],
+  ["sufle", "Суфле"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
