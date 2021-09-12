@@ -125,7 +125,8 @@ var links =
   ["pahlava_sochinskaia", "Пахлава cочинская (из рубленного теста)"],
   ["sacivi", "Сациви"],
   ["eklery_ili_shu", "Эклеры или шу"],
-  ["glazur_shokoladaia", "Глазурь шоколадная"]
+  ["glazur_shokoladaia", "Глазурь шоколадная"],
+  ["testo_medovogo_biskvita", "Тесто медового бисквита"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
