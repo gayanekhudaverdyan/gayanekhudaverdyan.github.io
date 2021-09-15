@@ -133,7 +133,8 @@ var links =
   ["shokoladny_krem_belochka", "Шоколадный крем белочка"],
   ["krem_poluzavarnoi_poluslivochny", "Крем полузаварной-полусливочный (идеал)"],
   ["sufle", "Суфле"],
-  ["kartoshka_v_dukhovke", "Как пожарить картошку в духовке так, чтобы она не осталась сырой внутри"]
+  ["kartoshka_v_dukhovke", "Как пожарить картошку в духовке так, чтобы она не осталась сырой внутри"],
+  ["gata", "Гата"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
