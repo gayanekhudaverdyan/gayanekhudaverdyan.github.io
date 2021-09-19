@@ -134,7 +134,8 @@ var links =
   ["krem_poluzavarnoi_poluslivochny", "Крем полузаварной-полусливочный (идеал)"],
   ["sufle", "Суфле"],
   ["kartoshka_v_dukhovke", "Как пожарить картошку в духовке так, чтобы она не осталась сырой внутри"],
-  ["gata", "Гата"]
+  ["gata", "Гата"],
+  ["farshirovannaia_ryba_iz_karpa", "Фаршированная рыба приготовленная из карпа"]
 ];
 
   function generatePanelHTMLCode(link, name, imageLink)
