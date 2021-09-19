@@ -109,7 +109,7 @@ var links =
   ["tort_medovoe_so_slivkami", 'Торт или пироженое "медовое со сливками"'],
   ["kapama_tykvennaia_kasha", 'Тыквенная каша с рисом "капама"'],
   ["uzbekski_plov", "Узбекский плов"],
-  ["farshirovannaia_ryba_iz_karpa", "Фаршированная рыба приготовленная из карпа"]
+  ["farshirovannaia_ryba_iz_karpa", "Фаршированная рыба приготовленная из карпа"],
   ["farshirovany_perec", "Фаршированный перец"],
   ["fruktovy_salat", "Фруктовый салат"],
   ["khachapuri", "Хачапури"],
