@@ -57,6 +57,7 @@ var links =
   ["morkovny_salat", "Морковный салат с грецкими орехами"],
   ["myaso_s_ovoshami", "Мясо с овощами"],
   ["olivie", "Оливье"],
+  ["otbivnye_ili_shitsel_iz_svininy", "Отбивные или шницель из свинины"],
   ["pasuc_dolma", "Пасуц долма (постные голубнцы)"],
   ["pahlava_sochinskaia", "Пахлава cочинская (из рубленного теста)"],
   ["pashtet_is_pecheni", "Паштет из печени"],
