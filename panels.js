@@ -96,6 +96,7 @@ var links =
   ["sup_krchik", "Суп крчик"],
   ["sup_ovoshnoi", "Суп овощной"],
   ["sup_rassolnik", "Суп рассольник"],
+  ["sup_s_frikadelkami", "Суп с фрикадельками"],
   ["sup_kharcho", "Суп харчо из баранины"],
   ["sup_khashborek", "Суп хашборек"],
   ["sup_pure", "Суп-пюре"],
