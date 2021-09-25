@@ -66,6 +66,7 @@ var links =
   ["pesochonoe_testo_dlia_korzinochek", "Песочное тесто для корзиночек"],
   ["pechenie_iz_detstva", "Печенье из нашего детства"],
   ["pechenye_pirojki", "Печеные пирожки из дрожжевого теста"],
+  ["pechenye_pirojki_iz_kombinirovannogo_testa", "Печеные пирожки из комбинированного теста"],
   ["pirojki", "Пирожки"],
   ["piti", "Пити (густой суп из баранины)"],
   ["plov_s_polboi", 'Плов с полбой и грибами "атчаров плов"'],
