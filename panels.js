@@ -51,6 +51,7 @@ var links =
   ["makarony_po_flotsky", "Макароны по-флотски"],
   ["marinovka", "Мариновка (баранина, свинина, индейка, курица)"],
   ["medovye_korji", "Медовые коржи"],
+  ["medovy_biskvit_nuga", "Медовый бисквит Нуга"],
   ["mikado", "Микадо"],
   ["molochny_sup_katnov", 'Молочный суп с рисом "катнов"'],
   ["morkovny_keks", "Морковный кекс"],
