@@ -29,6 +29,7 @@ var links =
   ["jarenaia_ryba_v_kliare", "Жареная рыба в кляре"],
   ["jarenye_baklajany_bolgarsky_perec", "Жареные баклажаны, болгарский перец и помидоры"],
   ["jarkoe", "Жаркое"],
+  ["zakuska_iz_marinovannykh_zelenykh_pomidorov", "Закуска из маринованных зеленых помидоров"],
   ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
   ["zakuska_iz_pechenikh_baklajan", "Закуска из печеных баклажан"],
   ["zelenaia_fasol", "Зеленая фасоль с лукок и яйцами"],
