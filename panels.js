@@ -88,6 +88,7 @@ var links =
   ["rybny_sup", "Рыбный суп, или уха"],
   ["salat", "Салат"],
   ["salat_iz_kurinykh_grudok", "Салат из куриных грудок"],
+  ["salat_iz_marinovannykh_masliat", "Салат из маринованных маслят"],
   ["salat_c_chechevicej", "Салат с чечевицей"],
   ["sarakh", "Сарах (национальное блюдо крымчаков)"],
   ["sacivi", "Сациви"],
