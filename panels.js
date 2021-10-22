@@ -41,6 +41,7 @@ var links =
   ["keks_shokoladny", "Кекс шоколадный"],
   ["keks_shokoladny_s_abrikosovym_djemom", "Кекс шоколадный с абрикосовым джемом"],
   ["kotlety", "Котлеты"],
+  ["kotlomyshki", "Котломышки"],
   ["krem_nuga", "Крем нуга"],
   ["krem_poluzavarnoi_poluslivochny", "Крем полузаварной-полусливочный (идеал)"],
   ["krushen", "Крюшон (легкий алкогольный напиток)"],
