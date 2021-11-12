@@ -106,6 +106,38 @@
     stringTitle += $("div.mainText h2").text();
     document.title = stringTitle;
   }
+  
+  function populateSpoilers()
+  {
+    var spoilerCode = `
+      <div class="spoiler-head">таблица мер и весов<br>
+      </div>
+      <div class="spoiler-body">
+        <dl>
+          <dt><b>стакан</b></dt>
+          <dd>вода: 300 гр</dd>
+          <dd>мука: 180 гр</dd>
+          <dd>сахар: 280 гр</dd>
+          <dd>растительное масло: 270 гр</dd>
+          <dd>сгущенное молоко: 360 - 380 гр</dd>
+          <dd>грецкие орехи: 110 гр</dd>
+        </dl>
+        <dl>
+          <dt><b>столовая ложка</b></dt>
+          <dd>сахар: 20 гр</dd>
+          <dd>растительное масло: 10 гр</dd>
+          <dd>мука (с горкой): 40 гр</dd>
+          <dd>мед: 30 гр</dd>
+        </dl>
+        яйцо без скорлупы: 53-55 гр<br>
+        яичный желток: 20 гр<br>
+        яичный белок: 33-35 гр
+      </div>
+    `
+    $("div.consist").each(function(){
+        $(this).append(spoilerCode);
+    });    
+  }
 
   $( document ).ready(function() 
   {
@@ -113,6 +145,7 @@
     populateMenu();
     populateCSSSettings();
     populateAllTables();
+    populateSpoilers()
   }
   );
   
@@ -121,3 +154,12 @@
     populateCSSSettings();
   }
   );
+  
+  $( function() 
+  {
+    $('.spoiler-body').hide();
+    $('.spoiler-head').click( function()
+    {
+        $(this).next().slideToggle('normal');
+    })
+  });  

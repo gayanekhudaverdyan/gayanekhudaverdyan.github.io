@@ -49,7 +49,6 @@ div.consist
   padding: 10px 20px 10px 20px;
   border-radius: 10px;
   display:table;
-  //box-shadow: -2px -2px 5px rgba(0,0,0,0.5);
 }
 
 
@@ -91,4 +90,21 @@ div.mainTable
     height: 100%;
 }
 
-	
+.spoiler-head
+{
+    padding: 10px 0 0 0;
+    cursor: pointer ;
+    color: DarkCyan   ;
+    text-decoration: underline;
+}
+.spoiler-head:before {
+    content: "\2799";
+    margin-right: 0px;
+}
+
+.spoiler-body
+{
+    padding: 1px 10px 10px 10px;
+    background-color: rgb(240, 205, 155);
+    border-radius: 10px;
+}
