@@ -133,9 +133,10 @@
         яичный желток: 20 гр<br>
         яичный белок: 33-35 гр
       </div>
+      <br>
     `
     $("div.consist").each(function(){
-        $(this).append(spoilerCode);
+        $(spoilerCode).insertAfter(this);
     });    
   }
 
