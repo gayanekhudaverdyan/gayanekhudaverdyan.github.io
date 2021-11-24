@@ -108,3 +108,12 @@ div.mainTable
     background-color: rgb(230, 250, 250);
     border-radius: 10px;
 }
+
+div.panelsGroupTitle
+{
+  text-align: left;
+  font-size: 40px;
+  padding-left: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
