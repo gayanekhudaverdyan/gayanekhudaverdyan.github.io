@@ -115,6 +115,7 @@
   ["glazur_shokoladaia", "Глазурь шоколадная"],
   ["grenki", "Гренки"],
   ["keks", "Кекс"],
+  ["keks_bez_pshenichnoi_muki", "Кекс без пшеничной муки"],
   ["keksovoe_testo", "Кексовое тесто"],
   ["keks_bananovy", "Кекс банановый"],
   ["keks_shokoladny", "Кекс шоколадный"],
