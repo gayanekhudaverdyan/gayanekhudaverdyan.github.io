@@ -33,6 +33,7 @@
   ["zaruska_iz_pecheni_treski", "Закуска из печени трески"],
   ["zakuska_iz_pechenikh_baklajan", "Закуска из печеных баклажан"],
   ["letnija_zakuska", "Летняя закуска из печенных овощей"],
+  ["morkovka_po_koreisky", "Морковка по-корейски"],
   ["morkovny_salat", "Морковный салат с грецкими орехами"],
   ["olivie", "Оливье"],
   ["pasuc_dolma", "Пасуц долма (постные голубнцы)"],
