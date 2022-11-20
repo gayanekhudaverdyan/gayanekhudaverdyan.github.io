@@ -102,6 +102,7 @@
   ["risovy_plov", "Рисовый плов"],
   ["risovy_plov_s_kartoshkoi", "Рисовый плов с молодой картошкой"],
   ["risovy_plov_sukhofrukty", "Рисовый плов с сухофруктами"],
+  ["risovy_plov_s_tomatnoi_pastoi", "Рисовый плов с томатной пастой и мясом (говядина, индейка или курица)"],
   ["risovy_plov_s_chechevicei", "Рисовый плов с чечевицей"],
   ["kapama_tykvennaia_kasha", 'Тыквенная каша с рисом "капама"'],
   ["cvetnaja_kapusta_jarenaja", "Цветная капуста жареная"],
