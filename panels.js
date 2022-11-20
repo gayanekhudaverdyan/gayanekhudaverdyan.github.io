@@ -125,6 +125,7 @@
   ["keks_s_apelsinovym_djemom", "Кекс с апельсиновым джемом, миндальной мукой и цельнозерновой мукой из полбы"],
   ["keks_shokoladny", "Кекс шоколадный"],
   ["keks_shokoladny_s_abrikosovym_djemom", "Кекс шоколадный с абрикосовым джемом"],
+  ["keks_s_abrikosovym_djemom", "Кекс с абрикосовым джемом"],
   ["keksovoe_testo", "Кексовое тесто"],
   ["kotlomyshki", "Котломышки"],
   ["krem_nuga", "Крем нуга"],
